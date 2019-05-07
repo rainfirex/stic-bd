@@ -1,0 +1,40 @@
+input:not([type='checkbox']), select, button {
+    padding: 10px;
+    min-width: 220px;
+    max-width: 220px;
+    color: #353333;
+    border: solid 1px darkgray;
+    font: normal 0.9em 'century gothic', arial;
+    outline: none;
+}
+
+input:focus {
+    border: solid 1px #6b9fa9;
+    box-shadow: 0 0 0 0.2rem rgba(52,144,220,.25);
+}
+
+button {
+    min-width: 124px;
+}
+
+input:required {
+    border-left: solid 1px red;
+}
+
+input[type=submit] {
+    cursor: pointer;
+}
+
+select {
+    /*min-width: 240px;*/
+}
+
+textarea {
+    width: 99%;
+    min-width: 99%;
+    height: 90px;
+    min-height: 90px;
+    font: normal 0.9em 'century gothic', arial;
+    overflow:hidden;
+    resize: none;
+}

@@ -1,0 +1,84 @@
+table {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    /*border: solid 1px #656565;*/
+    /*box-shadow: 1px 8px 14px 1px #757575;*/
+    font: normal 0.9em 'century gothic', sans-serif;
+}
+
+table th {
+    /*background: linear-gradient(to left, #1b4b72, #1b4b72, #8980b3);*/
+    background: linear-gradient(to left, #1c636c, #247a85, #247a85);
+    color: #cecece;
+    user-select: none;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    padding: 14px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+table tr {
+    cursor: pointer;
+}
+
+table tr:nth-child(even) {
+    border-top: solid 1px #c6c6c6;
+    border-bottom: solid 1px #c6c6c6;
+}
+
+table tr:nth-child(1), table tr:nth-child(2) {
+    border: none;
+    cursor: auto;
+}
+
+table tr:hover td{
+    background-color: #cfd2d2;
+}
+
+table td {
+    padding: 10px;
+    background: #edf1f1;
+    max-width: 150px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    user-select: none;
+}
+
+table a {
+    transition: 0.2s;
+}
+
+.table-header {
+    padding: 1px 35px;
+    /*background: linear-gradient(to top, #1b4b72, #1b4b72, #7e7896);*/
+    /*background: linear-gradient(to top, #247a85, #247a85, #1c636c);*/
+    /*background-color: #474343;*/
+    background: linear-gradient(to top, #474343, #474343, #474343);
+    /*border: none;*/
+    color: #c8cbcf;
+    border: solid 1px #989898;
+}
+
+.table-header .icon {
+    margin: 6px 25px;
+}
+
+.table-header .title {
+    padding: 15px 0 0;
+    font-size: 1.1em;
+    display: block;
+    text-align: center;
+}
+
+.search-frm {
+    min-width: 280px;
+    position: fixed;
+    left: 30%;
+    right: 30%;
+    top: 400px;
+}

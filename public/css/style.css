@@ -1,0 +1,104 @@
+.auth-block {
+    background: #302e2e;
+    text-align: right;
+    padding: 0 56px;
+    color: #eff0f1;
+    font: normal 0.7em 'GothamPro';
+}
+
+.auth-block form {
+    display: inline-block;
+}
+
+.auth-block .logout {
+    border: none;
+    min-width: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.auth-block a , .auth-block .logout{
+    color: #53e2d6;/*#c8cbcf;*/
+    display: inline-block;
+    padding: 8px;
+    font: normal 0.9em 'GothamPro';
+}
+
+.auth-block a:hover , .auth-block .logout:hover {
+    color: #d6dade;
+}
+
+
+header {
+    min-height: 80px;
+    color: white;
+    font-weight: bold;
+    font-stretch: expanded;
+    /*background: linear-gradient(to left, #1b4b72, #877e9b, #1b4b72);*/
+    background: linear-gradient(to left, #31636a, #3cb1b9, #3d97a2);
+}
+
+header h1 {
+    /* margin-left: 120px; */
+    /* padding-top: 15px; */
+    color: #232020;
+    padding: 15px;
+    /* font-size: 1.9em; */
+    text-align: center;
+    font-size: 25px;
+}
+
+header img {
+    height: 50px;
+    right: 116px;
+    /* top: 8px; */
+    /* position: absolute; */
+    /* text-align: center; */
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.content {
+    /*width: 80%;    */
+    min-width: 80%;
+    margin: 10px auto;
+    position: relative;
+}
+
+footer {
+    background: #1b1e21;
+}
+
+
+.title-page {
+    text-align: center;
+    max-width: 900px;
+    margin: 28px auto;
+    padding: 10px 0;
+    color: #c8cbcf;
+    border: solid 1px #989898;
+    border-radius: 3px;
+    /*background: linear-gradient(to left, #1b4b72, #a08ba9);*/
+    /*background: linear-gradient(to TOP, #31636a, #3ab2c1);*/
+    background-color: #474343;
+
+    box-shadow: 1px 1px 2px black;
+}
+
+.errors {
+    border: solid 3px #d19191;
+    width: 80%;
+    max-width: 650px;
+    margin: 10px auto;
+    background: #e9ecef;
+    padding: 16px;
+    line-height: 40px;
+    overflow: hidden;
+    box-shadow: 1px 2px 15px 1px #272727;
+}
+
+.errors h3 {
+    text-align: center;
+    color: brown;
+}
